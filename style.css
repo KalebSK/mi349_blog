@@ -1,0 +1,62 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 5em;
+    border-top: 0.5em solid lightgray;
+    margin-top: 0em;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: darkslategray;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: thin solid gray;
+    margin-bottom: 0em;
+    padding-bottom: 0.25em;
+}
+
+.menu {
+    color: gray;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a[href$=".html"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+#electricV {
+    margin-bottom: 2em;
+    border-bottom: 0.25em solid lightgray;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscribe input[type="submit"] {
+    background-color: green;
+    border: none;
+    padding: 0.25em;
+    color: white;
+}
+
+img[src="TESLA-LOGO.jpg"] {
+    border:thin solid red;
+    padding: 0.25em;
+}
+

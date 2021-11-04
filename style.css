@@ -7,7 +7,6 @@ body {
     margin: 5em;
     border-top: 0.5em solid lightgray;
     margin-top: 0em;
-    padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -24,10 +23,43 @@ h2 {
     border-bottom: thin solid gray;
     margin-bottom: 0em;
     padding-bottom: 0.25em;
+    margin-top: 0em;
 }
 
 .menu {
     color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.menu li a:hover{
+    background-color: darkgreen;
 }
 
 a:visited {
@@ -39,8 +71,12 @@ a[href$=".html"] {
   }
 
 #electricV {
-    margin-bottom: 2em;
-    border-bottom: 0.25em solid lightgray;
+    flex: 50%;
+}
+
+#webdev {
+    flex: 50%;
+    padding-right: 1em;
 }
 
 table {
@@ -58,5 +94,41 @@ table {
 img[src="TESLA-LOGO.jpg"] {
     border:thin solid red;
     padding: 0.25em;
+    float: left;
+    margin-right: 0.75em;
 }
 
+figure {
+    float: left;
+    margin: 0;
+}   
+
+main {
+    padding: 1em;
+    padding-top: 0em;
+    display: flex;
+}
+
+header {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.contact {
+    padding-top: 1em;
+}
+
+form.contact div {
+    margin-top: 0.5em;
+}
+
+.email-signup {
+    padding: 1em;
+}
+
+figcaption {
+    margin-top: 1em;
+    color: darkgrey;
+    font-size: 1em;
+    text-align: center;
+}

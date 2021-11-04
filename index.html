@@ -8,9 +8,6 @@
     <title>MI 349 Blog</title>
 </head>
 <body>
-    <header>
-        <h1>Blog</h1>
-    </header>
     <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,7 +15,9 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-
+    <header>
+        <h1>Blog</h1>
+    </header>
     <main>
         <article id="webdev">
             <h2>Why Web Development Is Important</h2>
@@ -26,8 +25,8 @@
                 <li>Author: <a href="about.html" rel="author">Kaleb Koebel</a></li>
                 <li><p>date: <time datetime="2021-10-14"></time>10/14/2021</p></li>
             </ul>
-            <img src="HTML5_LOGO.png" alt="HTML5 Logo" width="300" height="300">
-            <p>Anyone can admit one thing about society, especially in our post-covid world and that is that we live in an online society.
+
+            <p><figure><img class="article-img" src="HTML5_LOGO.png" alt="HTML5 Logo" width="300" height="300"><figcaption> The HTML5 Logo!</figcaption></figure>Anyone can admit one thing about society, especially in our post-covid world and that is that we live in an online society.
                  So much that we do is done online in today's world. We go to school online, we may even work online, we shop, socialize, entertain ourselves all using the power of the web. The web is like an entire world built on the back of web development.
                  If so much over our lives revolves around the web you can easily see why web development is incredibly important. imagine you went to do these tasks everyday but it was riddled with issues. You wouldn't be able to do your school work or finish tasks needed for your job if the web was poorly developed.
                  That is why a strong foundation in web development is needed. Everyone wants their operations on the web to go smoothly so standards are put in place so most parts of the web can be accessed by just about anyone with a reliable internet connection.
@@ -39,31 +38,8 @@
                 <li>Author: <a href="about.html" rel="author">Kaleb Koebel</a></li>
                 <li><p>date: <time datetime="2021-10-14"></time>10/14/2021</p></li>
             </ul>
-            <img src="TESLA-LOGO.jpg" alt="Tesla car company logo" width="400" height="250">
-            <table>
-                <tr>
-                    <th>Manufacturer</th>
-                    <th>Model</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td>Tesla</td>
-                    <td>Model S</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <td>Tesla</td>
-                    <td>Model Y</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <td>Tesla</td>
-                    <td>Model 3</td>
-                    <td>2020</td>
-                </tr>
-            </table>
 
-            <p>As society moves towards a more eco-friendly nature as we look to combat the effects of climate change and our direct impacts in it, there has been a strong push towards
+            <p><img class="article-img" src="TESLA-LOGO.jpg" alt="Tesla car company logo" width="400" height="250">As society moves towards a more eco-friendly nature as we look to combat the effects of climate change and our direct impacts in it, there has been a strong push towards
                  leaving combustion engine vehicles towards using electric vehicles or EVs for short. Instead of using gas powered combustion to drive the turning of the cars wheels EVs
                  use electrically driven motors to do it removing the need for direct burning of fossil fuels. This all sounds great and a necessary change for society to move away from
                  combustion engine cars, but EVs have issues of their own. One of the main issues of EVs is the need for charging and large battery packs. Lithium mining is not most environmentally
@@ -71,12 +47,37 @@
                  Batteries also degrade incredibly fast compared to the engine of a combustion
                  vehicle and the amount of range decreases the more you have to recharge the EVs battery. 
                  Despite these issues, companies like Tesla (logo pictured above) continue to make great strides in overcoming these issues and we may one day not even see a combustion engine car on the road again.</p>
+                 <table>
+                    <tr>
+                        <th>Manufacturer</th>
+                        <th>Model</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>Model S</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>Model Y</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>Model 3</td>
+                        <td>2020</td>
+                    </tr>
+                </table>
         </article>
+    </main>
+
+    <div class="email-signup">
         <form id="subscribe">
             <label for="Email">Email Newsletter Signup: </label>
             <input type="text" name="Email" id="Email">
             <input type="submit" value="Subscribe!">
         </form>
-    </main>
+    </div>
 </body>
 </html>

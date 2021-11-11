@@ -132,3 +132,45 @@ figcaption {
     font-size: 1em;
     text-align: center;
 }
+
+@media (max-width: 400px) {
+    main {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    #electricV {
+        flex: auto;
+    }
+    
+    #webdev {
+        flex: auto;
+        padding-right: 0;
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 900px) {
+    main {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    #electricV {
+        flex: auto;
+    }
+    
+    #webdev {
+        flex: auto;
+        padding-right: 0;
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
